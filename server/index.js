@@ -19,7 +19,7 @@ const {
   KEY_FILE: keyFile,
   SECRET: secret,
   CONTRACT_ADDRESS: contractAddress = 'KT1AtaeG5PhuFyyivbfPZRUBkVMiqyxpo2cH',
-  RPC_URL: rpcURL = 'https://mainnet.tezos.marigold.dev',
+  RPC_URL: rpcURL = 'https://mainnet.tezos.ecadinfra.com',
   SCHEDULE: schedule = '*/5 * * * *'
 } = process.env
 

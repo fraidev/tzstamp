@@ -135,11 +135,11 @@ async function getProof(location, verbose) {
 function getNode(network) {
   switch (network) {
     case 'NetXdQprcVkpaWU':
-      return 'https://mainnet.tezos.marigold.dev/'
+      return 'https://mainnet.tezos.ecadinfra.com/'
     case 'NetXnHfVqm9iesp':
-      return 'https://ithacanet.tezos.marigold.dev/'
+      return 'https://ithacanet.tezos.ecadinfra.com/'
     case 'NetXLH1uAxK7CCh':
-      return 'https://jakartanet.tezos.marigold.dev/'
+      return 'https://jakartanet.tezos.ecadinfra.com/'
   }
 }
 

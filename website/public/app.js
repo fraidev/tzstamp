@@ -243,8 +243,8 @@ function compare(a, b) {
 function generateURLs(url) {
   const testnet = TESTNETS.find(testnet => url.includes(testnet))
   if (testnet) {
-    return [`https://${testnet}-api.tzstamp.io`, `https://${testnet}.tezos.marigold.dev`]
+    return [`https://${testnet}-api.tzstamp.io`, `https://${testnet}.tezos.ecadinfra.com`]
   }
 
-  return ["https://api.tzstamp.io", "https://mainnet.tezos.marigold.dev"]
+  return ["https://api.tzstamp.io", "https://mainnet.tezos.ecadinfra.com"]
 }
